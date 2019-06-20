@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $uname = "phpmyadmin"; 
-$upwd = "Meiven212!";
+$upwd = "";
 $dbname = "loginsys";
 $conn = mysqli_connect($servername, $uname, $upwd, $dbname);
 if(!$conn)
